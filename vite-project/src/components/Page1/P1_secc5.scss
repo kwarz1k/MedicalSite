@@ -1,0 +1,82 @@
+.Five{
+    width: 100vw;
+    height: 873px;
+    background-image: url(../../assets/Group\ 51.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Centr1{
+        width: 1300px;
+        height: 655px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .text1{
+            width: 407px;
+            height: 173px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-evenly;
+            h1{
+                font-size: 32px;
+                color: #159EEC;
+            }
+            p{
+                font-size: 16px;
+                color: black;
+            }
+        }
+        .Kontaz{
+            width: 431px;
+            height: 545px;
+            background-color: #1F2B6C;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            .Weeknd{
+                width: 431px;
+                height: 203px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .starboy{
+                    width: 215.5px;
+                    height: 51px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    border: 0.2px solid white;
+                    h1{
+                        font-size: 16px;
+                        color: white;
+                    }                 
+                }
+            }
+            .Mess{
+                width: 431px;
+                height: 276px;
+                h1{
+                    position: relative;
+                    top: 20px;
+                    left: 20px;
+                    font-size: 16px;
+                    color: white;
+                } 
+            }
+            .fortnite{
+                width: 431px;
+                height: 66px;
+                cursor: pointer;
+                border-radius: 0px 0px 10px 10px; 
+                border: none;
+                color: #1F2B6C;
+                font-size: 16px;
+                background-color: #BFD2F8;
+            }
+        }
+    }
+}

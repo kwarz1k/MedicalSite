@@ -1,0 +1,77 @@
+.First{
+    width: 100vw;
+    height: 750px;
+    background-image: url(../../assets/doctor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Centr{
+        width: 1100px;
+        height: 400px;
+        .Kont{
+            width: 619px;
+            height: 316px;
+            .text{
+                width: 619px;
+                height: 239px;
+                h1{
+                    font-size: 34px;
+                    color: #159EEC;
+                }
+                p{
+                    color: #1F2B6C;
+                    font-size: 75px;
+                }
+            }
+            .tyz{
+                width: 190px;
+                height: 55px;
+                background-color: #BFD2F8;
+                border: none;
+                border-radius: 30px;
+                font-size: 18px;
+            }
+        }
+        .Kont2{
+            width: 1100px;
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            top: 180px;
+            position: relative;
+            .raz{
+                width: 316px;
+                height: 130px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: #1F2B6C;
+                border-radius: 8px;
+                color: white;
+            }
+            .dva{
+                width: 316px;
+                height: 130px;
+                display: flex;
+                align-items: center;
+                color: #1F2B6C;
+                justify-content: space-around;
+                background-color: #BFD2F8;
+                border-radius: 8px;
+            }
+            .tri{
+                width: 316px;
+                height: 130px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 8px;
+                background-color: #159EEC;
+            }
+        }
+    }
+}

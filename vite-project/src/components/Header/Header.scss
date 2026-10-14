@@ -1,0 +1,49 @@
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2B6C;
+    nav{
+        width: 1330px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        ul{
+            width: 495px;
+            height: 41px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            li a{
+                font-size: 18px;
+                color: white;
+                text-decoration: none;
+            }
+            a:hover{
+                    
+                color: #BFD2F8;
+            }
+        }
+        .yezzy{
+            width: 223px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .kut{
+                width: 173px;
+                height: 45px;
+                background-color: #BFD2F8;
+                color: #1F2B6C;
+                font-size: 16px;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}

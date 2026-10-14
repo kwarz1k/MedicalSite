@@ -1,0 +1,95 @@
+.Six{
+    width: 100vw;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Centrr{
+        width: 1100px;
+        height: 718px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .tezxxt{
+            width: 197px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            h1{
+                font-size: 18px;
+                color: #159EEC;
+            }
+            p{
+                font-size: 32px;
+                color: #1F2B6C;
+            }
+        }
+        .zxccx{
+            width: 992px;
+            height: 538px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .kontzxc{
+                width: 317px;
+                height: 538px;
+                background-color: #BFD2F8;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                .dior{
+                    width: 135px;
+                    height: 94px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    h1{
+                        font-size: 22px;
+                        color: #1F2B6C;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #1F2B6C;
+                    }
+                    .jersy{
+                        width: 112px;
+                        height: 24px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+                .Prof{
+                    width: 317px;
+                    height: 46px;
+                    background-color: #1F2B6C;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.swiper {
+  width: 1100px;
+  height: auto !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
